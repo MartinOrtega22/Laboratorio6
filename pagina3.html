@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Laboratorio 6</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1, .container, .row{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        } 
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Laboratorio 6</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina1.html">Página 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina2.html">Página 2</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link active" href="pagina3.html">Página 3</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>JavaScript</h1>
+
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Introducción a JavaScript:
+
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>JavaScript es como el motor de la casa, proporcionando la interactividad y la funcionalidad
+                            dinámica a una página web. Mientras que HTML define la estructura y CSS el diseño,
+                            JavaScript permite agregar comportamientos interactivos, como animaciones, validaciones de
+                            formularios y respuestas a eventos del usuario. Es el lenguaje que hace que una página web
+                            cobre vida, permitiendo que los usuarios interactúen con ella de forma activa y
+                            personalizada.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Manipulación del DOM:
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>El DOM, o Document Object Model, es como el plano de la casa que JavaScript utiliza para
+                            interactuar con los elementos HTML y CSS de una página web. Con JavaScript, puedes
+                            seleccionar elementos del DOM y modificar su contenido, estilo y estructura en tiempo real.
+                            Esto te permite crear efectos visuales, como cambiar el color de un botón al pasar el mouse
+                            sobre él, o agregar y eliminar elementos dinámicamente. Es como mover muebles y cambiar la
+                            decoración de una habitación en tiempo real, según las preferencias y acciones del usuario.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Gestión de eventos y comunicación con el servidor: </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        JavaScript también facilita la gestión de eventos del usuario, como hacer clic en un botón o
+                        desplazarse por la página. Puedes agregar manejadores de eventos a los elementos HTML para
+                        responder a estas acciones y realizar acciones específicas, como enviar datos al servidor o
+                        actualizar la página sin necesidad de recargarla. Esto permite crear experiencias interactivas y
+                        fluidas para los usuarios, como formularios que se envían automáticamente cuando se completa un
+                        campo o galerías de imágenes que se cargan a medida que se desplaza hacia abajo en la página. Es
+                        como tener interruptores y controles que responden a las acciones del usuario, haciendo que la
+                        experiencia en línea sea más intuitiva y agradable.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <img src="imagen1j.png" alt="Imagen 1" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <img src="imagen2j.webp" alt="Imagen 2" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <img src="imagen3j.jpg" alt="Imagen 3" class="img-fluid">
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</div>
+
+</html>
